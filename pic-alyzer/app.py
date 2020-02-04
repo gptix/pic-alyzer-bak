@@ -1,4 +1,5 @@
 """Simplest Heroku app that receives requests and provides responses per picfest project."""
+import json
 from flask import Flask, request
 from .classifier import img_pred
 
@@ -30,7 +31,7 @@ def create_app():
         for path in image_paths:
             result = img_pred(path)
             results.append(result)
-        return "{'classifications' : [" + ", ".join(results) + "]}"
+        return "{'classifications' : " json.dumps(results) + "}"
 
 
     return app
