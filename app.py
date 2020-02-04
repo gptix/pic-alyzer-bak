@@ -6,23 +6,27 @@ def create_app():
     app = Flask(__name__)
     DB.init_app(app)
 
-@app.route('/summary', methods=['POST'])
-"""Receive and process a request for classification of one image. Sample message containing URL for one image:
+    @app.route('/')
+    def index ()
+    return "<h1>Hi there!</h1"
+
+    @app.route('/summary', methods=['POST'])
+    """Receive and process a request for classification of one image. Sample message containing URL for one image:
 
 {
 	"image": "https://michelangelostestbucket.s3.us-west-2.amazonaws.com/8bf0322348cc11e7e3cc98325fbfcaa1"
 }
 """
-def summary():
+    def summary():
     
-    message = "{'frogs' : '2'}"
+        message = "{'frogs' : '2'}"
 
-    return message
+        return message
 
-    return app
+        return app
 
 
-@app.route('/batch_img_summary', methods=['POST'])
+    @app.route('/batch_img_summary', methods=['POST'])
 """Receive and process a request for classification of a batch of images. Sample message :
 
 {
@@ -32,8 +36,8 @@ def summary():
 	]
 }
 """
-def batch_img_summary():
+    def batch_img_summary():
     
-    message = "{'classifications' : {{'frogs' : '4'}, {'sharks' : '17'}}}"
+        message = "{'classifications' : {{'frogs' : '4'}, {'sharks' : '17'}}}"
     
-    return message
+        return message
