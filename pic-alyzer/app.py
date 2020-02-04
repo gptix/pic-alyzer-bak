@@ -31,7 +31,7 @@ def create_app():
         for path in image_paths:
             result = img_pred(path)
             results.append(result)
-        return "{'classifications' : " json.dumps(results) + "}"
+        return "{'classifications' : " + json.dumps(results) + "}"
 
 
     return app
