@@ -12,8 +12,8 @@ def create_app():
 
 
     @app.route('/summary', methods=['POST'])
-        """Receive and process a request for classification of one image."""
     def summary():
+        """Receive and process a request for classification of one image."""
         return "{'frogs' : '2'}"
 
 
