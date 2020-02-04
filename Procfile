@@ -1,1 +1,1 @@
-web: gunicorn -w 4 twittoff:APP -t 120
+web: gunicorn -w 4 pic-alyzer:APP -t 120
