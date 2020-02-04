@@ -11,7 +11,7 @@ def create_app():
         return "<html><body><h1>Hi there!</h1></body></html>"
 
 
-    @app.route('/summary', methods=['POST'])
+    @app.route('/summary', methods=['GET', 'POST'])
     def summary():
         """Receive and process a request for classification of one image."""
         return "{'frogs' : '2'}"
