@@ -4,7 +4,7 @@ from flask import Flask, request
 def create_app():
     """Create and configure an instance of the Flask application"""
     app = Flask(__name__)
-    DB.init_app(app)
+
 
     @app.route('/')
     def index ()
@@ -41,3 +41,5 @@ def create_app():
         message = "{'classifications' : {{'frogs' : '4'}, {'sharks' : '17'}}}"
     
         return message
+
+    return app
