@@ -14,8 +14,10 @@ def create_app():
     @app.route('/summary', methods=['GET', 'POST'])
     def summary():
         """Receive and process a request for classification of one image."""
-        return "{'frogs' : '2'}"
-
+        # image_path=request['image']
+        image_path = "foo" # dummy function doesn't even use value.
+        return img_pred(image_path)
+        
 
     @app.route('/batch_img_summary', methods=['GET', 'POST'])
     def batch_img_summary():   
@@ -23,6 +25,12 @@ def create_app():
         return "{'classifications' : {{'frogs' : '4'}, {'sharks' : '17'}}}"
     
     return app
+
+
+    def img_pred(path):
+        """Sends a path to an image to the classifier, should return a JSON object."""
+        return "{'frogs' : '2'}"
+
 
     # Sample message containing URL for one image:
     #{
