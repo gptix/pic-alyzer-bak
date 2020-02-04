@@ -17,7 +17,7 @@ def create_app():
         return "{'frogs' : '2'}"
 
 
-    @app.route('/batch_img_summary', methods=['POST'])
+    @app.route('/batch_img_summary', methods=['GET', 'POST'])
     def batch_img_summary():   
         """Receive and process a request for classification of a batch of images."""
         return "{'classifications' : {{'frogs' : '4'}, {'sharks' : '17'}}}"
