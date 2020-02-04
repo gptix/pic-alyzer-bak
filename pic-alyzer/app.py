@@ -1,5 +1,6 @@
 """Simplest Heroku app that receives requests and provides responses per picfest project."""
 from flask import Flask, request
+from .classifier import img_pred
 
 def create_app():
     """Create and configure an instance of the Flask application"""
@@ -25,11 +26,6 @@ def create_app():
         return "{'classifications' : {{'frogs' : '4'}, {'sharks' : '17'}}}"
     
     return app
-
-
-    def img_pred(path):
-        """Sends a path to an image to the classifier, should return a JSON object."""
-        return "{'frogs' : '2'}"
 
 
     # Sample message containing URL for one image:
