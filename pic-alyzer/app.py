@@ -30,7 +30,7 @@ def create_app():
         for path in image_paths:
             result = img_pred(path)
             results.append(result)
-        return "{'classifications' : " + str(results) + "}"
+        return "{'classifications' : {" + ", ".join(results) + "}"
 
 
     return app
