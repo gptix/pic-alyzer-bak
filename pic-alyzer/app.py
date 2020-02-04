@@ -11,16 +11,10 @@ def create_app():
         return "<html><body><h1>Hi there!</h1></body></html>"
 
 
-    # @app.route('/summary', methods=['POST'])
-    #     """Receive and process a request for classification of one image."""
-    # # Sample message containing URL for one image:
-    # #{
-	# #"image": "https://michelangelostestbucket.s3.us-west-2.amazonaws.com/8bf0322348cc11e7e3cc98325fbfcaa1"
-    # #}
-
-    # def summary():
-    #     message = "{'frogs' : '2'}"
-    #     return message
+    @app.route('/summary', methods=['POST'])
+        """Receive and process a request for classification of one image."""
+    def summary():
+        return "{'frogs' : '2'}"
 
 
     # @app.route('/batch_img_summary', methods=['POST'])
@@ -36,3 +30,8 @@ def create_app():
     #     return "{'classifications' : {{'frogs' : '4'}, {'sharks' : '17'}}}"
     
     return app
+
+       # Sample message containing URL for one image:
+    #{
+	#"image": "https://michelangelostestbucket.s3.us-west-2.amazonaws.com/8bf0322348cc11e7e3cc98325fbfcaa1"
+    #}
