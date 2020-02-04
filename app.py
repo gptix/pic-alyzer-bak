@@ -1,5 +1,6 @@
 """Simplest Heroku app that receives requests and provides responses per picfest project."""
 from flask import Flask, request
+import gunicorn
 
 def create_app():
     """Create and configure an instance of the Flask application"""
