@@ -9,7 +9,7 @@ def create_app():
 
     @app.route('/')
     def index():
-        return "<h1>Hi there!</h1"
+        return "<html><body><h1>Hi there!</h1></body></html>"
 
     @app.route('/summary', methods=['POST'])
     """Receive and process a request for classification of one image. Sample message containing URL for one image:
