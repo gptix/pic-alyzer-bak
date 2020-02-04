@@ -12,7 +12,7 @@ def create_app():
 
 
     @app.route('/summary', methods=['POST'])
-    """Receive and process a request for classification of one image."""
+        """Receive and process a request for classification of one image."""
     def summary():
         return "{'frogs' : '2'}"
 
