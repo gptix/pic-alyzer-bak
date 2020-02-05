@@ -114,7 +114,7 @@ I had some friction with one team member. Not a show stopper (yet), but cooperat
 
 Team Lead: Nicholas Gallucci
 
-My **Awesome** TL - Jordan Ireland (Leader of Sharks)
+My **Awesome** DS TL - Jordan Ireland (*Leader of Sharks*)
 
 DS (Unit 3) Chris Huskey (Laser Shark)
 
@@ -123,3 +123,9 @@ Michelangelo Markus
 DS (Unit 4) Marilyn Esko 
 
 DS (Unit 4) Todd Gonzalez
+
+Natalya Beckstead - User Interface
+
+Eian Carter - Front End
+
+Kevin Jensen -  Front End
