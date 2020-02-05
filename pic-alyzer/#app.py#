@@ -42,7 +42,8 @@ def create_app():
         ## This returns JSON for one image, as a singleton.
         #@image_batch_dict = request['images']
         image_batch_dict = test_single_image_msg
-        return batch_to_response_set(image_batch_dict)
+        
+        return batch_to_response_set()
          
 
     

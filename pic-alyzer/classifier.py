@@ -13,12 +13,12 @@ def img_pred(path):
 def image_dict_to_response(image_dict):
     """Get prediction for one image, return in expected dict format."""
     return {'image_id' : image_dict['image_id'], 
-            'result': image_pred(image_dict['image_url'])}
+            'result': img_pred(image_dict['image_url'])}
 
 
 def batch_to_response_set(batch):
     """Get predictions for a batch of images, return as JSON object"""
+
     return {
-        'results' : 
-        list(map(image_dict_to_response, batch['images']))
+        'results' : list(map(image_dict_to_response, batch['images']))
             }
