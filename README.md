@@ -2,7 +2,10 @@
 Simple app to deploy on Heroku to test two endpoints.
 
 ## Team git repo
-https://github.com/chrishuskey/DS10_picmetric2/
+[Chris Huskey's](https://github.com/chrishuskey/DS10_picmetric2/)
+
+[https://github.com/Build-week-picmetric2](https://github.com/Build-week-picmetric2)
+
 
 ## Team Tools
 [Trello](https://trello.com/b/nBlbUZ5M/pic-metric-2)
