@@ -8,6 +8,12 @@ Simple app to deploy on Heroku to test two endpoints.  This is part of a project
 [https://github.com/Build-week-picmetric2](https://github.com/Build-week-picmetric2)
 
 [Team (DS) Repo](https://github.com/picmetric/data-science)
+
+[My pic-alyzer repo](https://github.com/gptix/pic-alyzer)
+
+## Heroku instance
+
+[My practice Heroku instance, might use for production](https://pic-alyzer.herokuapp.com/)
  
 ## Team Tools
 [Trello](https://trello.com/b/nBlbUZ5M/pic-metric-2)
