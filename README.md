@@ -32,14 +32,13 @@ https://github.com/chrishuskey/DS10_picmetric2/
 
 ## Team Members
 
-Charley
+Chris Huskey (Laser Shark)
 
-Michelangelo
+Michelangelo Markus
 
-Marilyn
+Marilyn Esko 
 
-Todd
-
+Todd Gonzalez
 
 
 []()
