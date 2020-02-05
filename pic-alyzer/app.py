@@ -28,8 +28,8 @@ def create_app():
         image_paths = ['foo', 'foo']
 
         results = []
-        for path in image_paths:
-            result = img_pred(path)
+        for image_json in images:
+            result = img_pred_and_wrap(image_json)
             results.append(result)
         return "{'classifications' : " + json.dumps(results) + "}"
 
