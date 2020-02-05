@@ -1,11 +1,13 @@
 # pic-alyzer
-Simple app to deploy on Heroku to test two endpoints.
+Simple app to deploy on Heroku to test two endpoints.  This is part of a project during Lambda School.
 
-## Team git repo
+
+## Team git repos
 [Chris Huskey's](https://github.com/chrishuskey/DS10_picmetric2/)
 
 [https://github.com/Build-week-picmetric2](https://github.com/Build-week-picmetric2)
 
+[Team (DS) Repo](https://github.com/picmetric/data-science)
 
 ## Team Tools
 [Trello](https://trello.com/b/nBlbUZ5M/pic-metric-2)
@@ -16,7 +18,6 @@ Simple app to deploy on Heroku to test two endpoints.
 
 [Airtable](https://airtable.com/shrSnyzmYWdDO7c0G/tbl3bjvcax7pelQ2F/viwmaXfKAPEQyB01S/recWrKyK6b9FArml9?blocks=hide)
 
-[Team (DS) Repo](https://github.com/picmetric/data-science)
 
 ## Other Tools
 
