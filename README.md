@@ -28,6 +28,7 @@ Simple app to deploy on Heroku to test two endpoints.
 
 [Flask Heroku Hello World](https://hidenobu-tokuda.com/how-to-build-a-hello-world-web-application-using-flask-and-deploy-it-to-heroku/)
 
+[Discusion of YOLO3 and output](https://www.aiproblog.com/index.php/2019/05/26/how-to-perform-object-detection-with-yolov3-in-keras/)
 
 
 
