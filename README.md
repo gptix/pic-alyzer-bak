@@ -112,15 +112,14 @@ I had some friction with one team member. Not a show stopper (yet), but cooperat
 
 ## Team Members
 
-Chris Huskey (Laser Shark)
+Team Lead: Nicholas Gallucci
+
+My Awesome TL - Jordan Ireland (Leader of Sharks)
+
+DS (Unit 3) Chris Huskey (Laser Shark)
 
 Michelangelo Markus
 
-Marilyn Esko 
+DS (Unit 4) Marilyn Esko 
 
-Todd Gonzalez
-
-
-[]()
-
-
+DS (Unit 4) Todd Gonzalez
