@@ -127,3 +127,5 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# .h5 files - Our YOLO3 model is too big for github.  Use -f or --force to override this for deployment to heroku.

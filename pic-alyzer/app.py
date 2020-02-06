@@ -7,9 +7,8 @@ from flask import Flask, request
 ## Probably do not need to import img_pred, since others call it.
 from .classifier import img_pred, image_dict_to_response, batch_to_response_set
 
-## This can be deleted after testing.
-## the file can be deleted then, too.
-from .test_data import test_single_image_msg, test_batch_msg
+if __name__ == "__main__":
+    app.run()rt test_single_image_msg, test_batch_msg
 
 
 def create_app():
@@ -41,10 +40,7 @@ def create_app():
 
         ## This returns JSON for one image, as a singleton.
         #@image_batch_dict = request['images']
-        image_batch_dict = test_single_image_msg
-        return batch_to_response_set(image_batch_dict)
-         
-
+        image_batch_dict =Push rejected, failed to compile Python app.
     
     @app.route('/batch_img_summary', methods=['GET', 'POST'])
     def batch_img_summary():
